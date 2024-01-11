@@ -20,6 +20,7 @@
   --background-color-2: #c7cdcd;
   --color1-950: #292929;
   --color1-900: #3d3d3d;
+  --color1-400: #989898;
   --h-size-5: 48.83px;
   --color1-800: #464646;
   --kütüp-library--dim-grey: #6e6e6e;
@@ -29,7 +30,6 @@
   --p-size-3: 14px;
   --color1-600: #656565;
   --color1-500: #7c7c7c;
-  --color1-400: #989898;
   --color: black;
   --h-size-6: 39.06px;
   --h-size-7: 31.25px;
@@ -408,7 +408,7 @@ h2 {
 
 .paragraph {
   max-width: 800px;
-  color: var(--color1-300);
+  color: var(--color1-400);
   margin-bottom: 0;
   padding-top: 170px;
 }
@@ -421,7 +421,7 @@ h2 {
 }
 
 .meaning-para {
-  color: var(--color1-300);
+  color: var(--color1-400);
   margin-bottom: 0;
   padding-bottom: 50px;
 }
@@ -469,6 +469,7 @@ h2 {
 
 .coffee-para {
   max-width: 450px;
+  color: var(--color1-400);
   margin-top: 116px;
   margin-bottom: 0;
 }
@@ -823,11 +824,6 @@ h2 {
     grid-column-gap: 200px;
     grid-row-gap: 112px;
   }
-
-  .mapp {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1174,13 +1170,19 @@ h2 {
     font-size: var(--h-size-4);
   }
 
+  .feature-sec {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
   .vison-heding {
     font-size: var(--h-size-4);
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
 
   .vison-heding.vision-head {
     font-size: var(--h-size-4);
+    margin-bottom: 0;
   }
 
   .fact-circle {
@@ -1207,8 +1209,8 @@ h2 {
   }
 
   .our-story {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
 
   .story-h2 {
@@ -1222,8 +1224,22 @@ h2 {
     line-height: 36px;
   }
 
+  .section-box {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
   .paragraph {
     padding-top: 100px;
+  }
+
+  .meaning-box {
+    margin-top: 140px;
+  }
+
+  .value-section {
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
 
   .value-box {
@@ -1237,6 +1253,11 @@ h2 {
   .value-des {
     font-size: var(--p-size-2);
     margin-top: 10px;
+  }
+
+  .coffee-section {
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
 
   .kutup-checkbox {
@@ -1262,14 +1283,8 @@ h2 {
   }
 }
 
-#w-node-_08afdcbf-001c-3b15-b864-09e2354b5c8c-cacf5e83 {
+#w-node-_5820851a-9244-0935-8be6-488164525a0e-3402caf5, #w-node-_08afdcbf-001c-3b15-b864-09e2354b5c8c-3402caf5 {
   grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-@media screen and (min-width: 1920px) {
-  #w-node-_2c521ae8-d18c-ca78-13ed-a73701c7d54d-cacf5e83 {
-    grid-area: span 1 / span 1 / span 1 / span 1;
-  }
 }
 
 
