@@ -6,7 +6,7 @@ function submitData() {
     Obtn.innerHTML = "Please Wait..";
     Obtn.value="Please Wait"
     // Send data to Google Sheets (replace YOUR_GOOGLE_FORM_URL with the actual Google Form URL)
-    const googleFormUrl = 'https://script.google.com/macros/s/AKfycbzsM0rnEVLLlr6kEY37IAVJKP4xkKxet4SUF8qmMYrtquzf6BZo0nRr5NcnplJ1IXm4/exec';
+    const googleFormUrl = 'https://script.google.com/macros/s/AKfycbz-lhnXgH7lzPAo-DlFQ9Nc7vcE2OGCNwuIVcW61IQE2ZtXAQMeMjgJqajb7wMh-CgQ/exec';
     fetch(googleFormUrl, {
       method: 'POST',
       mode: 'no-cors',
